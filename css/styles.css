@@ -9,10 +9,6 @@
 
 :root {
   font-family: sans-serif;
-  /* --border-btn: 1px solid rgb(36, 36, 36);
-    --color-base-bg: rgb(240, 240, 240);
-    --color-base-text: rgb(18, 18, 18);
-    --color-btn-bg: rgb(220, 220, 220); */
 
   --color-label-text: #3c4451;
   --color-btn-bg: #596D48;
@@ -64,8 +60,6 @@ body {
 
 
 .odin-banner {
-
-
   display: flex;
   justify-content: center;
   align-items: center;
