@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Sign-up Form</title>
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -22,54 +24,53 @@
 
     </div>
     <div class="right-container">
-        <div>
-            <p>
-                <strong>
-                    This is not a real online service! You know you need something like this in your life to help you
-                    realize your deepest dreams. Sign up <em>now</em> to get started.
-                </strong>
-            </p>
-            <p>
-                <strong>You <em>know</em> you want to.</strong>
-            </p>
-            <form action="" method="get" class="signup-form">
+        <p>
+            <strong>
+                This is not a real online service! You know you need something like this in your life to help you
+                realize your deepest dreams. Sign up <em>now</em> to get started.<br>
+                <br>
+                You <em>know</em> you want to.</strong>
+        </p>
+        <form action="" method="get" class="signup-form">
+            <div class="signup-box">
                 <p>
                     <strong>Let's do this!</strong>
                 </p>
-                <div class="input-group">
-                    <label for="first_name">FIRST NAME</label>
-                    <input id="first_name" name="first_name" type="text">
+                <div class="input-container">
+                    <div class="input-group">
+                        <label for="first_name">FIRST NAME</label>
+                        <input id="first_name" name="first_name" type="text" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="last_name">LAST NAME</label>
+                        <input id="last_name" name="last_name" type="text" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">EMAIL</label>
+                        <input id="email" name="email" type="email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input id="phone_number" name="phone_number" type="tel" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">PASSWORD</label>
+                        <input id="password" name="password" type="password" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input id="confirm_password" name="confirm_password" type="password" required>
+                    </div>
                 </div>
-                <div class="input-group">
-                    <label for="last_name">LAST NAME</label>
-                    <input id="last_name" name="last_name" type="text">
-                </div>
-                <div class="input-group">
-                    <label for="email">EMAIL</label>
-                    <input id="email" name="email" type="email">
-                </div>
-                <div class="input-group">
-                    <label for="phone-number">PHONE NUMBER</label>
-                    <input id="phone_number" name="phone_number" type="tel">
-                </div>
-                <div class="input-group">
-                    <label for="password">PASSWORD</label>
-                    <input id="password" name="password" type="password">
-                </div>
-                <div class="form-field">
-                    <label for="confirm_password">CONFIRM PASSWORD</label>
-                    <input id="confirm_password" name="confirm_password" type="password">
-                </div>
-                <div class="button-row">
-                    <button type="submit" class="submit-btn">Create Account</button>
-                </div>
-
-                <p class="login-link">Already have an account? <a href="#">Log in</a></p>
-            </form>
-        </div>
-
-        <!-- <button type="submit" form="myForm" class="create-account-btn">Create Account</button> -->
+            </div>
+            <div class="button-row">
+                <button type="submit" class="submit-btn">Create Account</button>
+            </div>
+            <p class="login-link">Already have an account? <a href="">Log in</a></p>
+        </form>
     </div>
+
+    <!-- <button type="submit" form="myForm" class="create-account-btn">Create Account</button> -->
     </div>
 </body>
 
