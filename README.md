@@ -44,7 +44,7 @@ This project demonstrates:
 
 ## Live Demo
 
-_(Live demo link will be added once deployed.)_
+https://jameslafontaine.github.io/odin-signup-form/
 
 ## Future Improvements
 
